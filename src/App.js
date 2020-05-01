@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './App.css';
 import {View, Text,StyleSheet} from 'react-native-web';
-
+import { Container } from "native-base";
 
 export default class App extends Component {
     render() {
