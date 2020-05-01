@@ -395,7 +395,6 @@ module.exports = function (webpackEnv) {
                                             },
                                         },
                                     ],
-
                                 ],
                                 // This is a feature of `babel-loader` for webpack (not Babel itself).
                                 // It enables caching results in ./node_modules/.cache/babel-loader/
@@ -517,6 +516,7 @@ module.exports = function (webpackEnv) {
                         },
                         // ** STOP ** Are you adding a new loader?
                         // Make sure to add the new loader(s) before the "file" loader.
+
                     ],
                 },
             ],
